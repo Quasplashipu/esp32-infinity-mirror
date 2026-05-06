@@ -2,6 +2,8 @@
 Older project for an ESP32 using neopixel LED strip for a infinite mirror.
 Using Micropython.
 I did a little fixing up for 2026, but code is pretty old.
+Here is the project visualized in WOKWI:
+https://wokwi.com/projects/462931134977924097
 
 ## Button Map
 
