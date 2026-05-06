@@ -207,9 +207,7 @@ def run_clock():
             # Draw static hour markers shifted to the 12 o'clock position (index 7)
             for i in range(0, 60, 5):
                 np[(i + 7) % 60] = (20, 20, 20) 
-
-            # towa e za da ne bara chasa, toi e vinagi on top
-            # towa e za da ne ebawa minutite (i give up)
+                
             hour_pos = (hours * 5 + (minutes // 12) + 7) % 60
             minute_pos = (minutes + 7) % 60
             second_pos = (seconds + 7) % 60
